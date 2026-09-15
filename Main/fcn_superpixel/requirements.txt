@@ -1,0 +1,6 @@
+# Prefer the repo-root file: pip install -r ../../requirements.txt
+torch>=1.7.0
+numpy>=1.19
+opencv-python>=4.8.0
+scikit-image>=0.19
+Pillow>=8.0
