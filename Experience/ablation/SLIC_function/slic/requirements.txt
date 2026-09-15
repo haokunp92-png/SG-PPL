@@ -1,0 +1,4 @@
+# Prefer the repo-root file: pip install -r ../../../../requirements.txt
+numpy>=1.19
+opencv-python>=4.5
+scikit-image>=0.19
