@@ -1,0 +1,22 @@
+# SG-PPL — Python 3.8+
+# GPU: install a CUDA build of PyTorch first, e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# then:
+#   pip install -r requirements.txt
+
+# --- core ---
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.19
+scipy>=1.7
+
+# --- imaging (FCN superpixels, SLIC variant, graphs, heatmaps) ---
+opencv-python>=4.8.0
+scikit-image>=0.19
+Pillow>=8.0
+
+# --- survival plots (Step 7) ---
+matplotlib>=3.5
+
+# --- attribution (causalreasoning) ---
+captum>=0.7.0
