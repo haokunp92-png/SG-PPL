@@ -40,7 +40,7 @@ A whole examination is an unordered, variable-sized set of slices. Full-resoluti
 5. **Cross-gated fusion.** Clinical covariates are **treatment-free**: AJCC embedding (4-D) and age. Imaging and clinical streams are projected to 128-D; a clinical gate modulates the image stream; a Hadamard cross term encodes interaction; LayerNorm yields \(\mathbf{z}_{\text{joint}}\in\mathbb{R}^{128}\). Induction chemotherapy (`youdao`) is **not** admitted here, so the embedding remains a valid pre-treatment adjustment set for the causal head.
 
 <p align="center">
-  <img src="cross%20gated%20fusion.png" alt="Image-clinical cross-gated fusion" width="72%">
+  <img src="cross-gated-fusion.png" alt="Image-clinical cross-gated fusion" width="72%">
 </p>
 <p align="center"><sub><b>Figure 2.</b> Image–clinical cross-gated fusion. Projected streams \(\mathbf{u}_p\) and \(\mathbf{v}_p\) are combined as a clinically gated image term, a clinical term, and a Hadamard cross term, then layer-normalized into \(\mathbf{z}_{\text{joint}}\). <a href="cross%20gated%20fusion.pdf">PDF</a></sub></p>
 
